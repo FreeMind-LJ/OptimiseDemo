@@ -94,8 +94,8 @@
 //    cell.sign.layer.shadowPath = [UIBezierPath  bezierPathWithRect:cell.sign.bounds].CGPath;
 //
 //使用光栅化进行优化
-    cell.layer.shouldRasterize = YES;
-    cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
+//    cell.layer.shouldRasterize = YES;
+//    cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
 
     return cell;
 }
